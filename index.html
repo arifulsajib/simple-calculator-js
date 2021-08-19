@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Ariful</title>
+    <!-- Telwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-indigo-900">
+    <header>
+        <h2 class="text-3xl text-center text-white font-bold mt-8">Simple Calculator using JS</h2>
+    </header>
+    <main>
+        <section>
+            <div id="calculator" class="bg-white w-72 mx-auto mt-8 shadow-lg rounded-lg">
+                <div id="result-display" class="text-right bg-purple-300 p-4 h-28 overflow-hidden">
+                    <div class="h-12">
+                        <p id="history" class="text-2xl text-gray-700"></p>
+                    </div>
+                    <div class="h-12">
+                        <p id="final-result" class="text-2xl font-semibold"></p>
+                    </div>
+                </div>
+
+                <div id="keyboard" class="p-4 grid grid-cols-4 gap-4 text-xl bg-green-900 text-white">
+                    <button class="operator shadow-md" id="clear">C</button>
+                    <button class="operator shadow-md" id="back">CE</button>
+                    <button class="operator shadow-md" id="%">%</button>
+                    <button class="operator shadow-md" id="/">&#247;</button>
+                    <button class="number shadow-md" id="7">7</button>
+                    <button class="number shadow-md" id="8">8</button>
+                    <button class="number shadow-md" id="9">9</button>
+                    <button class="operator shadow-md" id="*">&times;</button>
+                    <button class="number shadow-md" id="4">4</button>
+                    <button class="number shadow-md" id="5">5</button>
+                    <button class="number shadow-md" id="6">6</button>
+                    <button class="operator shadow-md" id="-">-</button>
+                    <button class="number shadow-md" id="1">1</button>
+                    <button class="number shadow-md" id="2">2</button>
+                    <button class="number shadow-md" id="3">3</button>
+                    <button class="operator shadow-md" id="+">+</button>
+                    <button class="empty shadow-md" id="empty" disabled></button>
+                    <button class="number shadow-md" id="0">0</button>
+                    <button class="number shadow-md" id=".">.</button>
+                    <button class="operator shadow-md" id="=">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

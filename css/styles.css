@@ -1,0 +1,13 @@
+.operator,
+.number {
+    background-color: #0b5838;
+    border-radius: 3px;
+}
+
+#calculator {
+    border-radius: 5px;
+}
+
+#result-display {
+    border-radius: 5px 5px 0 0;
+}
